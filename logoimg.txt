@@ -1,0 +1,37 @@
+c:\Users\amitj\OneDrive\Desktop\exam logo.png
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department</title>
+</head>
+<style>
+    .department{
+        padding: 100px;
+        margin-top: 12px 16px;
+        display: flex;
+        font-size: xx-large;
+        gap: 5em;
+        
+    }
+    p{
+        text-align: center;
+        margin-top: 57px;
+        font-size: xx-large;
+    }
+</style>
+<body>
+    <p>Please Select your Department</p>
+    <div class="department">
+        <li class="cse"><a href="#">CSE</a></li>
+        <li class="aero"><a href="#">AEROSPACE</a></li>
+        <li class="upsc"><a href="#">UPSE</a></li>
+    </div>
+    
+</body>
+</html>
